@@ -16,6 +16,7 @@ app.post('/user', jsonParser, (req, res) => {
     res.status(200).json({user: {name: req.body.name}})
 })
 
+console.log(1)
 
   
 app.listen(3000, () => {
